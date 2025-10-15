@@ -35,24 +35,8 @@ def draw_health(surf, hp, x, y):
 
 sound = pygame.mixer.Sound("sound/music1.mp3")
 sound.play(loops=-1)
-all_sprites = pygame.sprite.Group()
-bullets = pygame.sprite.Group()
-aerolites = pygame.sprite.Group()
-powers = pygame.sprite.Group()
-
-player = Player()
-all_sprites.add(player)
-
-for i in range(8):
-    aerolite = Aerolite()
-    all_sprites.add(aerolite)
-    aerolites.add(aerolite)
-
 
 running = True
-
-score = 0
-flag = False
 show_init = True
 
 while running:
@@ -84,6 +68,7 @@ while running:
             aerolite = Aerolite()
             all_sprites.add(aerolite)
             aerolites.add(aerolite)
+
         score = 0
         flag = False
 
