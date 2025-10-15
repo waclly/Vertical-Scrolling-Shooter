@@ -2,7 +2,7 @@
 
 **A SpongeBob-inspired vertical scrolling shooter** where you play as **Patrick Star**, sent on a mission to **capture jellyfish** and stop their electric rampage in **Jellyfish Fields**!
 
-🎥 [Watch Gameplay on YouTube](https://youtube.com/shorts/c2v1QSbGQDI?feature=share)
+🎥 [Watch Gameplay on YouTube](https://youtube.com/shorts/gK5tScL3Vh8)
 
 ---
 
