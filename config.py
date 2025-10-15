@@ -10,4 +10,4 @@ YELLOW = (255, 255, 0)
 BLACK = (0, 0, 0)
 
 
-FONT_NAME = "arial"
+FONT_NAME = "04B_19.ttf"
