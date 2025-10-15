@@ -35,11 +35,13 @@ def draw_health(surf, hp, x, y):
 
 sound = pygame.mixer.Sound("sound/music1.mp3")
 sound.play(loops=-1)
-sound.set_volume(0.3)
+sound.set_volume(1.0)
 hit_sound = pygame.mixer.Sound("sound/hit.mp3")
-hit_sound.set_volume(0.3)
+hit_sound.set_volume(1.0)
 hitted_sound = pygame.mixer.Sound("sound/hitted.mp3")
 hitted_sound.set_volume(1.0)
+restore_sound = pygame.mixer.Sound("sound/restore.wav")
+restore_sound.set_volume(1.0)
 
 running = True
 show_init = True
@@ -106,6 +108,7 @@ while running:
             screen.blit(background_img, (0, 0))
             draw_text(screen, str(score), 50, WIDTH // 2 + 150, HEIGHT * 3 // 4 - 77, (116,140,139))
             pygame.display.update()
+            pygame.time.wait(1500)
 
             waiting = True
             while(waiting):
@@ -157,6 +160,7 @@ while running:
         hits = pygame.sprite.spritecollide(player, powers, False)
 
         for hit in hits:
+            restore_sound.play()
             if(hit.id == 0):
                 player.hp += 3
                 player.hp = min(player.hp, 15)
