@@ -59,7 +59,8 @@ Can Patrick save the day… or will he get shocked trying?
 - Python 3.10+
 - [Pygame](https://www.pygame.org/)
 
-### Installation
+### Installation & Setup
 
 ```bash
 pip install pygame
+python main.py
