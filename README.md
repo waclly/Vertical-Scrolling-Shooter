@@ -3,6 +3,8 @@
 **A SpongeBob-inspired vertical scrolling shooter** where you play as **Patrick Star**, sent on a mission to **capture jellyfish** and stop their electric rampage in **Jellyfish Fields**!
 
 
+https://github.com/user-attachments/assets/d097b8b8-cb58-4512-a758-4d0506c7be58
+
 ---
 
 ## 🕹️ Overview
